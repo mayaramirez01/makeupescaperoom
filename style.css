@@ -1,0 +1,132 @@
+body {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+.half-body1{
+	height: 100%;
+	width: 50%;
+	background-color: blue;
+	display: block;
+}
+.half-body2{
+	height: 100%;
+	width: 50%;
+	background-color: green;
+	display: block;
+}
+.half-body3{
+	height: 100%;
+	width: 50%;
+	background-color: red;
+}
+.half-body4{
+	height: 100%;
+	width: 50%;
+	background-color: pink;
+}
+//* ABOVE ARE PARENT DIVS *//
+.eyeshadow{
+	height: calc(100%/3);
+	width: 100%;
+	background-color: purple;
+}
+
+.cheeks{
+	height: calc(100%/3);
+	width: 100%;
+	background-color: black;
+}
+.lips{
+	height: calc(100%/3);
+	width: 100%;
+	background-color: red;
+}
+.button1{
+	height: calc(100%/6);
+	width: 100%;
+	background-color: pink;
+}
+.button2{
+	height: calc(100%/6);
+	width: 100%;
+	background-color: purple;
+}
+.button3{
+	height: calc(100%/6);
+	width: 100%;
+	background-color: white;
+}
+.button4{
+	height: calc(100%/6);
+	width: 100%;
+	background-color: black;
+}
+.button5{
+	height: calc(100%/6);
+	width: 100%;
+	background-color: orange;
+}
+.button6{
+	height: calc(100%/6);
+	width: 100%;
+	background-color: yellow;
+}
+.button7{
+	height: calc(100%/6);
+	width: 100%;
+	background-color: purple;
+}
+.button8{
+	height: calc(100%/6);
+	width: 100%;
+	background-color: white;
+}
+.button9{
+	height: calc(100%/6);
+	width: 100%;
+	background-color: black;
+}
+.button10{
+	height: calc(100%/6);
+	width: 100%;
+	background-color: orange;
+}
+.button11{
+	height: calc(100%/6);
+	width: 100%;
+	background-color: yellow;
+}
+.button12{
+	height: calc(100%/6);
+	width: 100%;
+	background-color: pink;
+}
+.eye-pic{
+	height: 25%;
+	width: 50vw;
+	background-color: yellow;
+}
+
+.cheek-pic{
+	height: 25%;
+	width: 50vw;
+	background-color: blue;
+}
+
+.lips-pic{
+	height: 25%;
+	width: 50vw;
+	background-color: black;
+}
+
+.key{
+	height: 25%;
+	width: 50vw;
+	background-color: orange;
+}
