@@ -2,32 +2,29 @@ body {
 	height: 100%;
 	width: 100%;
 	display: flex;
-	margin-top: 25px;
-	margin-bottom: 25px;
-	margin-left: 25px;
-	margin-right: 25px;
+	margin: 0;
 }
 
 .half-body1{
 	height: 100%;
-	width: 50%;
+	width: 30%;
 	background-color: blue;
 	display: block;
 }
 .half-body2{
 	height: 100%;
-	width: 50%;
+	width: 20%;
 	background-color: green;
 	display: block;
 }
 .half-body3{
 	height: 100%;
-	width: 50%;
+	width: 20%;
 	background-color: red;
 }
 .half-body4{
 	height: 100%;
-	width: 50%;
+	width: 35%;
 	background-color: pink;
 }
 //* ABOVE ARE PARENT DIVS *//
@@ -50,37 +47,38 @@ body {
 .button1{
 	height: calc(100%/6);
 	width: 100%;
-	background-color: pink;
+	background-color: #9a4340;
 }
 .button2{
 	height: calc(100%/6);
 	width: 100%;
-	background-color: purple;
+	background-color: #4d2120;
 }
 .button3{
 	height: calc(100%/6);
 	width: 100%;
-	background-color: white;
+	background-color: #f8cff5;
 }
 .button4{
 	height: calc(100%/6);
 	width: 100%;
-	background-color: black;
+	background-color: #8e6c05
+;
 }
 .button5{
 	height: calc(100%/6);
 	width: 100%;
-	background-color: orange;
+	background-color: #f23838;
 }
 .button6{
 	height: calc(100%/6);
 	width: 100%;
-	background-color: yellow;
+	background-color: #f78080;
 }
 .button7{
 	height: calc(100%/6);
 	width: 100%;
-	background-color: purple;
+	background-color: #cd9e8c;
 }
 .button8{
 	height: calc(100%/6);
@@ -90,22 +88,22 @@ body {
 .button9{
 	height: calc(100%/6);
 	width: 100%;
-	background-color: black;
+	background-color: #dda8be;
 }
 .button10{
 	height: calc(100%/6);
 	width: 100%;
-	background-color: orange;
+	background-color: #B87900;
 }
 .button11{
 	height: calc(100%/6);
 	width: 100%;
-	background-color: yellow;
+	background-color: #912121;
 }
 .button12{
 	height: calc(100%/6);
 	width: 100%;
-	background-color: pink;
+	background-color: #ca0808;
 }
 .eye-pic{
 	height: 25%;
@@ -129,4 +127,16 @@ body {
 	height: 25%;
 	width: 50vw;
 	background-color: orange;
+}
+.restrict-img-size{
+	height: 33.3%;
+	max-width: 100%;
+}
+.restrict-img-size2{
+	height: 100%;
+	width: 100%;
+}
+.restrict-img-size3{
+	height: 100%;
+	max-width: 100%;
 }
