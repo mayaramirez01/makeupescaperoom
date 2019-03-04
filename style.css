@@ -48,84 +48,108 @@ body {
 	height: calc(100%/6);
 	width: 100%;
 	background-color: #9a4340;
+	border-style: solid;
+	border-width: 0.5px;
 }
 .button2{
 	height: calc(100%/6);
 	width: 100%;
 	background-color: #4d2120;
+	border-style: solid;
+	border-width: 0.5px;
 }
 .button3{
 	height: calc(100%/6);
 	width: 100%;
 	background-color: #f8cff5;
+	border-style: solid;
+	border-width: 0.5px;
 }
 .button4{
 	height: calc(100%/6);
 	width: 100%;
-	background-color: #8e6c05
-;
+	background-color: #8e6c05;
+	border-style: solid;
+	border-width: 0.5px;
+
 }
 .button5{
 	height: calc(100%/6);
 	width: 100%;
 	background-color: #f23838;
+	border-style: solid;
+	border-width: 0.5px;
 }
 .button6{
 	height: calc(100%/6);
 	width: 100%;
 	background-color: #f78080;
+	border-style: solid;
+	border-width: 0.5px;
 }
 .button7{
 	height: calc(100%/6);
 	width: 100%;
 	background-color: #cd9e8c;
+	border-style: solid;
+	border-width: 0.5px;
 }
 .button8{
 	height: calc(100%/6);
 	width: 100%;
 	background-color: white;
+	border-style: solid;
+	border-width: 0.5px;
 }
 .button9{
 	height: calc(100%/6);
 	width: 100%;
 	background-color: #dda8be;
+	border-style: solid;
+	border-width: 0.5px;
 }
 .button10{
 	height: calc(100%/6);
 	width: 100%;
 	background-color: #B87900;
+	border-style: solid;
+	border-width: 0.5px;
 }
 .button11{
 	height: calc(100%/6);
 	width: 100%;
 	background-color: #912121;
+	border-style: solid;
+	border-width: 0.5px;
 }
 .button12{
 	height: calc(100%/6);
 	width: 100%;
 	background-color: #ca0808;
+	border-style: solid;
+	border-width: 0.5px;
 }
 .eye-pic{
 	height: 25%;
-	width: 50vw;
+	width: 35vw;
 	background-color: yellow;
 }
 
 .cheek-pic{
 	height: 25%;
-	width: 50vw;
+	width: 35vw;
 	background-color: blue;
 }
 
 .lips-pic{
 	height: 25%;
-	width: 50vw;
+	width: 35vw;
 	background-color: black;
 }
 
 .key{
 	height: 25%;
-	width: 50vw;
+	width: 35vw;
 	background-color: orange;
 }
 .restrict-img-size{
@@ -139,4 +163,8 @@ body {
 .restrict-img-size3{
 	height: 100%;
 	max-width: 100%;
+}
+.restrict-img-size4{
+	height: 100%;
+	min-width: 100%
 }
