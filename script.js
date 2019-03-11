@@ -5,7 +5,7 @@ var d= document.getElementById("el4");
 
 function nextImage(el){
 if (a.src.match("images/no_color_eyes.jpg")){ 
-		a.src= "images/final_eye_look.png"; 
+		a.src= "images/final_eye_look.PNG"; 
 	}else if (a.src.match("images/final_eye_look.png")){
 		a.src= "images/no_color_eyes.jpg";
 	}
